@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="statusBar">#000000</color>
+    <color name="appBar">#212121</color>
+    <color name="background">#303030</color>
+    <color name="cards">#424242</color>
+    <color name="mainFontColor">#ffffff</color>
+    <color name="secondaryFontColor">#EEEEEE</color>
+    <color name="rippleColor">#9E9E9E</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="iconsColor">#BDBDBD</color>
+    <color name="moneyInColor">#00bfa5</color>
+</resources>

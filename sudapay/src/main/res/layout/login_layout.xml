@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBar"
+    android:id="@+id/layout1"
+    tools:context=".MainActivity"
+
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/appBar">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/sudapay2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:textColorHint="@color/rippleColor"
+            app:counterEnabled="true"
+            app:counterMaxLength="10"
+            app:counterTextAppearance="@style/smallFont"
+            app:hintAnimationEnabled="true"
+            app:hintTextAppearance="@style/inputLayoutFont"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:layout_constraintVertical_bias="0.060000002">
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_credit_card"
+                android:drawableLeft="@drawable/ic_credit_card"
+                android:drawablePadding="5dp"
+                android:hint="Account Number"
+                android:imeOptions="actionNext"
+                android:inputType="numberSigned"
+                android:maxLength="10"
+                android:textAppearance="@style/medFont"
+                android:textColor="@color/mainFontColor"
+                android:textColorHint="@color/iconsColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:textColorHint="@color/rippleColor"
+            app:counterEnabled="true"
+            app:counterMaxLength="4"
+            app:counterTextAppearance="@style/smallFont"
+            app:hintAnimationEnabled="true"
+            app:hintEnabled="true"
+            app:hintTextAppearance="@style/inputLayoutFont"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+            app:layout_constraintVertical_bias="0.0">
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_pass"
+                android:drawableLeft="@drawable/ic_pass"
+                android:drawablePadding="5dp"
+                android:hint="Password"
+                android:inputType="numberSigned"
+                android:maxLength="4"
+                android:textAppearance="@style/medFont"
+                android:textColor="@color/mainFontColor"
+                android:textColorHint="@color/iconsColor"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/login_button_background"
+            android:fontFamily="casual"
+            android:text="Login"
+            android:textColor="@color/mainFontColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

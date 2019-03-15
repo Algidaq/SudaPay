@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appBar</item>
+        <item name="colorPrimaryDark">@color/statusBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorControlNormal">@color/rippleColor</item>
+        <item name="colorControlActivated">@color/moneyInColor</item>
+        <item name="colorError">@color/colorAccent</item>
+    </style>
+
+
+
+
+    <style name="passButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:layout_height">@dimen/passButtonHieght</item>
+        <item name="android:layout_width">@dimen/passButtonWidth</item>
+        <item name="android:background">@drawable/enter_pass_button_background</item>
+    </style>
+
+    <style name="largeFont" parent="@style/TextAppearance.AppCompat.Large">
+        <item  name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/largeFontSize</item>
+    </style>
+
+    <style name="passwordButtonStyle" parent="@style/TextAppearance.AppCompat.Large">
+        <item  name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/passButtonSize</item>
+        <item name ="android:textColor">@color/mainFontColor</item>
+        <item name ="android:paddingTop">3dp</item>
+
+    </style>
+
+    <style name="medFont" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">@dimen/medFontSize</item>
+    </style>
+
+    <style name="smallFont" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textColor">@color/mainFontColor</item>
+        <item name="android:textSize">@dimen/smallFontSize</item>
+    </style>
+
+    <style name="inputLayoutFont" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/moneyInColor</item>
+        <item name="android:textSize">@dimen/inputLayoutFontSize</item>
+    </style>
+
+    <style name="appBarFont" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/mainFontColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="radioButton" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/appBar</item>
+        <item name="colorPrimaryDark">@color/mainFontColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+
+</resources>

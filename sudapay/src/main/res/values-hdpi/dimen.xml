@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inputLayoutFontSize">16sp</dimen>
+    <dimen name="TitleMarginStart1">25dp</dimen>
+    <dimen name="TitleMarginStart">68dp</dimen>
+    <dimen name="TitleMarginStart2">44dp</dimen>
+    <dimen name="TitleMarginStart4">52dp</dimen>
+    <dimen name="TitleMarginStart3">70dp</dimen>
+    <dimen name="medFontSize">14sp</dimen>
+    <dimen name="smallFontSize">12sp</dimen>
+    <dimen name="largeFontSize">18sp</dimen>
+    <dimen name="passButtonSize">24dp</dimen>
+    <dimen name="passButtonHieght">45dp</dimen>
+    <dimen name="passButtonWidth">47dp</dimen>
+
+</resources>
