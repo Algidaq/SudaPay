@@ -48,6 +48,7 @@ public class SudaPayActivity extends AppCompatActivity {
     public void networkCall()
     {
         ArrayList<NameValuePair> posts  = new ArrayList<>();
+        
         posts.add(new BasicNameValuePair("spId",getApplicationContext().getString(R.string.SPID)));
         System.out.println("packageName "+ getPackageName());
         posts.add(new BasicNameValuePair("packageName",getPackageName()));
