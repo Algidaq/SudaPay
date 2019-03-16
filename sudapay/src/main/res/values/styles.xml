@@ -41,12 +41,6 @@
     </style>
 
 
-    <style name="radioButton" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/appBar</item>
-        <item name="colorPrimaryDark">@color/mainFontColor</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:colorBackground">@color/background</item>
-    </style>
 
     <style name="appBarFont" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textColor">@color/mainFontColor</item>
