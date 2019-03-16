@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/appBar"
     android:id="@+id/layout1"
-    tools:context=".MainActivity">
+   >
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
