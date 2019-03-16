@@ -4,6 +4,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:theme="@style/AppTheme">
-
+        <activity android:name=".SudaPayActivity"/>
     </application>
 </manifest>
