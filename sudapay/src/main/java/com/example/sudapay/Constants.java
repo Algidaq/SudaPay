@@ -2,7 +2,7 @@ package com.example.sudapay;
 
 public class Constants  {
 
-    public static String url = "https://gidaq.000webhostapp.com/SudaPay/";
+    public static String url = "https://192.168.43.60.8888/SudaPay/";
     public static String checkApi = url+"checkApi.php";
     public static String login = url+"logIn.php";
     public static String getReceiverInfo = url+"getReceiverInfo.php";
