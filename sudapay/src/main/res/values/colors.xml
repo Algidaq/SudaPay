@@ -9,7 +9,7 @@
     <color name="cards">#424242</color>
     <color name="mainFontColor">#ffffff</color>
     <color name="secondaryFontColor">#EEEEEE</color>
-    <color name="rippleColor">#9E9E9E</color>
+    <color name="SudaPayRippleColor">#9E9E9E</color>
     <color name="transparent">@android:color/transparent</color>
     <color name="sudapayIconsColor">#BDBDBD</color>
     <color name="sudaPayMoneyInColor">#00bfa5</color>
