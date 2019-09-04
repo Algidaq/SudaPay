@@ -32,7 +32,7 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
-    <style name="inputLayoutFont" parent="@android:style/TextAppearance">
+    <style name="com.sudapay.inputLayoutFont" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/accentColor</item>
         <item name="android:textSize">@dimen/inputLayoutFontSize</item>
     </style>

@@ -112,7 +112,7 @@ public class Utils {
     public static void ChanageBarColor(Window window)
     {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            window.setStatusBarColor(Color.BLACK);
+            window.setStatusBarColor(window.getContext().getResources().getColor(R.color.darkPrimaryColor));
         }
     }
 }

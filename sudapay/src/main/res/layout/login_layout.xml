@@ -44,7 +44,7 @@
             app:counterMaxLength="10"
             app:counterTextAppearance="@style/com.sudapay.smallFont"
             app:hintAnimationEnabled="true"
-            app:hintTextAppearance="@style/inputLayoutFont"
+            app:hintTextAppearance="@style/com.sudapay.inputLayoutFont"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +65,7 @@
                 android:textAppearance="@style/com.sudapay.medFont"
                 android:textColorHint="@color/sudapayIconsColor"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -81,7 +81,7 @@
             app:counterTextAppearance="@style/com.sudapay.smallFont"
             app:hintAnimationEnabled="true"
             app:hintEnabled="true"
-            app:hintTextAppearance="@style/inputLayoutFont"
+            app:hintTextAppearance="@style/com.sudapay.inputLayoutFont"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -101,7 +101,7 @@
                 android:textAppearance="@style/com.sudapay.medFont"
                 android:textColorHint="@color/sudapayIconsColor"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                 />
         </android.support.design.widget.TextInputLayout>
 
         <Button
@@ -114,9 +114,8 @@
             android:background="@drawable/com_sudapay_login_button"
             android:fontFamily="casual"
             android:text="Login"
-            android:textColor="@color/mainFontColor"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAppearance="@style/com.sudapay.largeFont"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

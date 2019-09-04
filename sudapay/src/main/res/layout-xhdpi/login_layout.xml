@@ -45,7 +45,7 @@
             app:counterMaxLength="10"
             app:counterTextAppearance="@style/com.sudapay.smallFont"
             app:hintAnimationEnabled="true"
-            app:hintTextAppearance="@style/inputLayoutFont"
+            app:hintTextAppearance="@style/com.sudapay.inputLayoutFont"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
                 android:textAppearance="@style/com.sudapay.medFont"
                 android:textColor="@color/mainFontColor"
                 android:textColorHint="@color/sudapayIconsColor"
-                android:textStyle="bold" />
+               />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -82,7 +82,7 @@
             app:counterTextAppearance="@style/com.sudapay.smallFont"
             app:hintAnimationEnabled="true"
             app:hintEnabled="true"
-            app:hintTextAppearance="@style/inputLayoutFont"
+            app:hintTextAppearance="@style/com.sudapay.inputLayoutFont"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -103,7 +103,7 @@
                 android:textColor="@color/mainFontColor"
                 android:textColorHint="@color/sudapayIconsColor"
 
-                android:textStyle="bold" />
+               />
         </android.support.design.widget.TextInputLayout>
 
         <Button
@@ -116,9 +116,8 @@
             android:layout_marginBottom="32dp"
             android:background="@drawable/com_sudapay_login_button"
             android:text="Login"
-            android:textAllCaps="true"
+            android:textColor="@color/white"
             android:textAppearance="@style/com.sudapay.largeFont"
-            android:textColor="@color/mainFontColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
