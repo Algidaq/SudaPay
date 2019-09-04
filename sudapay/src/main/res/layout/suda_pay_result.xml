@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
 
-    <com.example.algidaq.sudapaylibrary.MyView
+    <com.example.sudapay.MyView
         android:id="@+id/myView2"
         android:layout_width="200px"
         android:layout_height="200px"

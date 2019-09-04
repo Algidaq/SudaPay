@@ -21,7 +21,7 @@ public class SudaPayResult extends Fragment {
 
 
 
-    public SudaPayResult(){}
+
 
 
 
