@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appBar">
+    android:background="@color/white">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -34,7 +34,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Erro Text"
-        android:textColor="@color/mainFontColor"
         android:visibility="gone"/>
 
     <FrameLayout

@@ -10,7 +10,7 @@
     <corners
         android:radius="8dp"/>
     <solid
-        android:color="@color/moneyInColor"/>
+        android:color="@color/sudaPayMoneyInColor"/>
 
 </shape>
 </item>
@@ -23,7 +23,7 @@
             <corners
                 android:radius="8dp"/>
             <solid
-                android:color="@color/moneyInColor"/>
+                android:color="@color/sudaPayMoneyInColor"/>
 
         </shape>
     </item>

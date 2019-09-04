@@ -3,23 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/coorLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/primaryColor">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:navigationIcon="@drawable/ic_back"
+            app:navigationIcon="@drawable/com_sudapay_ic_back"
             app:title="Review and Send"
             app:titleMarginStart="@dimen/TitleMarginStart1"
-            app:titleTextAppearance="@style/appBarFont" />
+            app:titleTextAppearance="@style/com.sudapay.appBarFont" />
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.widget.NestedScrollView

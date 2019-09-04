@@ -2,7 +2,6 @@ package com.example.sudapay;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
@@ -28,7 +27,7 @@ public class MyView extends View {
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(strokeWidth);
         //Circle color
-        paint.setColor(getContext().getResources().getColor(R.color.moneyInColor));
+        paint.setColor(getContext().getResources().getColor(R.color.sudaPayMoneyInColor));
         paint.setDither(true);
 
 

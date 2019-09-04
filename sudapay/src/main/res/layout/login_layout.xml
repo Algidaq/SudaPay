@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appBar"
+    android:background="@color/white"
     android:id="@+id/layout1"
     >
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:background="@color/appBar">
+        android:background="@color/white">
 
 
         <ImageView
@@ -42,7 +42,7 @@
             android:textColorHint="@color/rippleColor"
             app:counterEnabled="true"
             app:counterMaxLength="10"
-            app:counterTextAppearance="@style/smallFont"
+            app:counterTextAppearance="@style/com.sudapay.smallFont"
             app:hintAnimationEnabled="true"
             app:hintTextAppearance="@style/inputLayoutFont"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -62,9 +62,8 @@
                 android:imeOptions="actionNext"
                 android:inputType="numberSigned"
                 android:maxLength="10"
-                android:textAppearance="@style/medFont"
-                android:textColor="@color/mainFontColor"
-                android:textColorHint="@color/iconsColor"
+                android:textAppearance="@style/com.sudapay.medFont"
+                android:textColorHint="@color/sudapayIconsColor"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </android.support.design.widget.TextInputLayout>
@@ -79,7 +78,7 @@
             android:textColorHint="@color/rippleColor"
             app:counterEnabled="true"
             app:counterMaxLength="4"
-            app:counterTextAppearance="@style/smallFont"
+            app:counterTextAppearance="@style/com.sudapay.smallFont"
             app:hintAnimationEnabled="true"
             app:hintEnabled="true"
             app:hintTextAppearance="@style/inputLayoutFont"
@@ -93,17 +92,15 @@
                 android:id="@+id/edit2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableStart="@drawable/ic_pass"
-                android:drawableLeft="@drawable/ic_pass"
+                android:drawableStart="@drawable/com_sudapay_pass"
+                android:drawableLeft="@drawable/com_sudapay_pass"
                 android:drawablePadding="5dp"
                 android:hint="Password"
                 android:inputType="numberSigned"
                 android:maxLength="4"
-                android:textAppearance="@style/medFont"
-                android:textColor="@color/mainFontColor"
-                android:textColorHint="@color/iconsColor"
+                android:textAppearance="@style/com.sudapay.medFont"
+                android:textColorHint="@color/sudapayIconsColor"
                 android:textSize="18sp"
-
                 android:textStyle="bold" />
         </android.support.design.widget.TextInputLayout>
 
@@ -114,7 +111,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="48dp"
             android:layout_marginEnd="8dp"
-            android:background="@drawable/login_button_background"
+            android:background="@drawable/com_sudapay_login_button"
             android:fontFamily="casual"
             android:text="Login"
             android:textColor="@color/mainFontColor"
