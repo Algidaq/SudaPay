@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:id="@+id/layout1"
+    android:theme="@style/com.sudapay.appTheme"
     >
 
     <android.support.constraint.ConstraintLayout
@@ -62,6 +63,7 @@
                 android:imeOptions="actionNext"
                 android:inputType="numberSigned"
                 android:maxLength="10"
+                android:textColor="@color/black"
                 android:textAppearance="@style/com.sudapay.medFont"
                 android:textColorHint="@color/sudapayIconsColor"
                 android:textSize="18sp"
@@ -89,6 +91,7 @@
             app:layout_constraintVertical_bias="0.0">
 
             <EditText
+                android:textColor="@color/black"
                 android:id="@+id/edit2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

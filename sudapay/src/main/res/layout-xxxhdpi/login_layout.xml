@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:id="@+id/layout1"
+    android:theme="@style/com.sudapay.appTheme"
     >
 
     <android.support.constraint.ConstraintLayout
@@ -53,6 +54,7 @@
             app:layout_constraintVertical_bias="0.060000002">
 
             <EditText
+                android:textColor="@color/black"
                 android:id="@+id/edit1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -90,6 +92,7 @@
             app:layout_constraintVertical_bias="0.0">
 
             <EditText
+                android:textColor="@color/black"
                 android:id="@+id/edit2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
